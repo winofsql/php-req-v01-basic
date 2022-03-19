@@ -31,4 +31,4 @@ $connect_string = "mysql:host={$host};dbname={$dbname}";
 // グローバル変数
 $pdo = null;
 $title = "社員問合せ";
-
+$error = null;
