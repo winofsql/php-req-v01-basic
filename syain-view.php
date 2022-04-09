@@ -21,12 +21,19 @@ td,th {
 #tbl {
     user-select: none;
 }
+
+.folder {
+    float: right;
+}
 </style>
 
 </head>
 
 <body>
-<h3 class="alert alert-primary"><?= $title ?></h3>
+<h3 class="alert alert-primary">
+    <?= $title ?>
+    <a href="." class="btn btn-secondary btn-sm folder me-4">フォルダ</a>
+</h3>
 <div id="content">
 
     <div class="table-responsive">
